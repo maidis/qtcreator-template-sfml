@@ -7,7 +7,7 @@ With [qtcreator-template-sfml](https://github.com/maidis/qtcreator-template-sfml
 
 Just tested on Fedora. For now, it's likely that it'll not work on other Linux distributions, other operating systems, or other processor architectures without some changes being made.
 
-So any contribution to the project is welcomed :)
+So any contribution to the project is welcomed :smiley:
 
 
 ## Installation
