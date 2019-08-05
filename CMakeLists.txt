@@ -1,8 +1,8 @@
 project(%{ProjectName})
 
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.1)
 
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -Wall -O0")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall -O0")
 set(CMAKE_MODULE_PATH "${CMAKE_ROOT}/Modules/"  "/usr/share/SFML/cmake/Modules/")
 
 
@@ -25,4 +25,4 @@ endif()
 
 
 add_executable(${PROJECT_NAME} ${SOURCE})
-target_link_libraries(${PROJECT_NAME} ${SFML_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} sfml-system sfml-graphics sfml-audio sfml-window)

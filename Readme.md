@@ -15,6 +15,6 @@ To use the template in Qt Creator, copy the whole directory here:
 $HOME/.config/QtProject/qtcreator/templates/wizards/
 ```
 
-For more information, see the [SFML forums](https://en.sfml-dev.org/forums/index.php?topic=15947.0).
+For more information, see [Custom SFML Wizard for QtCreator](https://en.sfml-dev.org/forums/index.php?topic=15947.0) and [SFML 2.5 CMake Migration](https://en.sfml-dev.org/forums/index.php?topic=24070.0) at SFML forums.
 
 ![Qt Creator SFML template](https://github.com/maidis/qtcreator-template-sfml/raw/master/qtcreator-template-sfml.png "Qt Creator SFML template")
